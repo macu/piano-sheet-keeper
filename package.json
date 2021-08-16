@@ -1,0 +1,25 @@
+{
+	"name": "music-sheet-keeper",
+	"private": true,
+	"license": "UNLICENSED",
+	"scripts": {
+		"prod": "webpack --config webpack.config.js"
+	},
+	"devDependencies": {
+		"@babel/core": "7.x",
+		"@babel/preset-env": "7.x",
+		"@macu/dynamic-stylesheet-vue": "^1.0.6",
+		"@vue/compiler-sfc": "3.x",
+		"babel-loader": "^8.2.2",
+		"css-loader": "6.x",
+		"mini-css-extract-plugin": "2.x",
+		"node-sass": "6.x",
+		"sass-loader": "12.x",
+		"vue-loader": "16.x",
+		"webpack": "5.x",
+		"webpack-cli": "^4.7.0"
+	},
+	"dependencies": {
+		"vue": "^3.1.5"
+	}
+}
